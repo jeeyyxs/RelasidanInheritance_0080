@@ -14,6 +14,6 @@ public:
     ~Jantung() {
         cout << "Jantung Dimatikan\n";
     }
-}   
+};
 
 #endif // !JANTUNG_H
