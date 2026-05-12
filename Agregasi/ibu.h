@@ -29,15 +29,15 @@ public:
  };
 
  //pendefinisian prosedur · prosedur pada class ibu diluar class
-void Ibu: :tambahAnak(anak* pAnak) {
+void ibu ::tambahAnak(anak* pAnak) {
     daftar_anak.push_back(pAnak);
 }
 
-votd Ibu :: cetakAnak() {
-    cout << "Daftar Anak dart Ibu |"" <e this->nama << "l"fIn";
+void ibu :: cetakAnak() {
+    cout << "Daftar Anak dari Ibu \"" << this->nama << "\":\n";
     for (auto& a : daftar_anak)
     {
-        cout << a->nama << "In";
+        cout << a->nama << "\n";
     }
     cout << endl;
 }
