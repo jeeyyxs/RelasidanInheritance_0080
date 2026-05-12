@@ -12,3 +12,10 @@ public:
     //deklarasi member variabel pada class ibu
     string nama;
     vector<anak*> daftar_anak;
+
+    //membuat constructor pada class ibu
+    ibu(string pNama) :nama(pNama) {
+        cout << "Ibu \"" << nama << "\" ada\n";
+    }
+
+    
