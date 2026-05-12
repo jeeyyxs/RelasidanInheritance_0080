@@ -9,5 +9,6 @@ using namespace std;
 //membuat class ibu  di file header ibu.h
 class ibu {
 public:
+    //deklarasi member variabel pada class ibu
     string nama;
     vector<anak*> daftar_anak;
