@@ -17,3 +17,10 @@ int main()
     varibu->tambahAnak(varAnak1);
     varibu->tambahAnak(varAnak2);
     varibu2->tambahAnak(varAnak3);
+
+    //pemanggilan prosedur cetakAnak()
+    varibu->cetakAnak();
+    varibu2->cetakAnak();
+
+    return 0;
+}
