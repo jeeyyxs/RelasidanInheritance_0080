@@ -18,4 +18,9 @@ public:
         cout << "Ibu \"" << nama << "\" ada\n";
     }
 
+    //membuat destructor pada class ibu
+    ~ibu() {
+        cout << "Ibu \"" << nama << "\" tidak ada\n";
+
+    }
     
