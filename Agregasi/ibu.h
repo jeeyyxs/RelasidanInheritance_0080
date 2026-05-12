@@ -21,6 +21,10 @@ public:
     //membuat destructor pada class ibu
     ~ibu() {
         cout << "Ibu \"" << nama << "\" tidak ada\n";
-
     }
+
+    //deklarasi prosedur tambahAnak() dan ceatakAnak()
+    void tambahAnak(anak* pAnak);
+    void cetakAnak();
+ };
     
