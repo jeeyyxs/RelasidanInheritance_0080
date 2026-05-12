@@ -1,4 +1,4 @@
-#ifndef MEMBER_H
+#ifndef MEMBER_H  //library
 #define MEMBER_H
 
 #include "user.h"
