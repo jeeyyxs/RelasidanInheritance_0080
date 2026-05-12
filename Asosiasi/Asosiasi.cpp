@@ -25,3 +25,26 @@ public:
     void tambahDokter(dokter*);
     void cetakDokter();
 };
+
+//pembuatan class dokter
+class dokter {
+public:
+    //deklarasi member variabel class dokter
+    string nama;
+    vector<pasien*> daftar_pasien;
+
+    //pembuatan costructor dari class dokter
+    dokter(string pNama) :nama(pNama) {
+        cout << "Dokter \"" << nama << "\" ada\n";
+    }
+
+    //pembuatan destructor dari class dokter
+    ~dokter() {
+        cout << "Dokter \"" << nama << "\" tidak ada\n";
+    }
+
+    //deklarasi prosedur tambahPasien() dan cetakPasien()
+    void tambahPasien(pasien*);
+    void cetakPasien();
+
+};
